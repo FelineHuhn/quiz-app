@@ -3,3 +3,36 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  line-height: 1.5;
+  background-color: lightsteelblue;
+}
+
+.question-card {
+  display: flex;
+  border: 2px solid black;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 50px;
+  padding: 40px;
+  background-color: lightskyblue;
+  box-shadow: 1px 1px 10px black;
+}
+
+.question {
+}
+
+.answer {
+  margin: auto;
+  padding: 10px;
+  background-color: white;
+  font-weight: bold;
+}
+
+.answer:hover {
+  background-color: grey;
+  color: black;
+}
