@@ -1,4 +1,14 @@
-@import "./global.css";
-@import "./header.css";
-@import "./main.css";
-@import "./footer.css";
+@import "./components/global.css";
+@import "./components/header.css";
+@import "./components/main.css";
+@import "./components/footer.css";
+
+@font-face {
+  font-family: "Poppins-Light";
+  src: url("./fonts/Poppins/Poppins-Light.ttf") format ("truetype");
+}
+
+@font-face {
+  font-family: "Poppins-SemiBold";
+  src: url("./fonts/Poppins/Poppins-SemiBold.ttf") format ("truetype");
+}
