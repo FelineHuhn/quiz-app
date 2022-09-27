@@ -1,7 +1,7 @@
 .question-card {
   display: flex;
   position: relative;
-  height: 500px;
+  height: 700px;
   flex-direction: column;
   margin: 150px 70px 70px 70px;
   padding: 40px;
@@ -18,33 +18,39 @@
   width: 70px;
 }
 
-h2 {
+p {
   font-size: 30px;
   padding: 40px;
+  height: 300px;
 }
 
-.answer {
+.hidden-answer {
+  font-size: 25px;
+  padding: 10px;
+  height: auto;
+  text-align: center;
+  background-color: lightsteelblue;
+}
+
+.answer-button {
   margin: auto;
   padding: 10px;
-  font-size: 20px;
-  background-color: var(--second-color);
+  font-size: 15px;
+  background-color: var(--secondary-color);
   font-weight: bold;
+  font-family: "Poppins", sans-serif;
   border-radius: 10px;
 }
 
-button {
-  border: 1px solid black;
-}
-
-.answer:hover {
-  background-color: var(--third-color);
-  color: black;
+.answer-button:hover {
+  background-color: darkslateblue;
+  color: white;
 }
 .tag-list {
   display: flex;
   list-style: none;
   flex-direction: row;
-  font-family: monospace;
+  font-family: "Poppins", sans-serif;
 }
 
 .category-tag {
@@ -52,6 +58,7 @@ button {
   border-radius: 20%;
   padding: 5px;
   background-color: var(--third-color);
+  font-size: 17px;
 }
 
 .second-tag {
@@ -60,5 +67,5 @@ button {
 }
 
 .highlight {
-  background-color: var(--second-color);
+  background-color: var(--primary-color);
 }

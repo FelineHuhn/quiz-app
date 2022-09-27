@@ -4,7 +4,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap"
       rel="stylesheet"
     />
     <meta charset="UTF-8" />
@@ -18,66 +18,73 @@
       <nav class="header-navbar"><h1>Quiz App</h1></nav>
     </header>
     <main>
-      <section class="question-card">
-        <img
-          class="bookmark-icon"
-          alt="bookmark icon"
-          src="assets/icons/bookmark_black_36dp.svg"
-        />
-        <h2 class="question">
-          Mit welchem Property kann ein Selektor eine Hintergrundfarbe bekommen?
-        </h2>
-        <button class="answer" type="button">Show Answer</button>
-        <ul class="tag-list">
-          <li class="category-tag highlight">#css</li>
-          <li class="category-tag second-tag">#html</li>
-          <li class="category-tag">#flexbox</li>
-        </ul>
-      </section>
-      <section class="question-card">
-        <img
-          class="bookmark-icon"
-          alt="bookmark icon"
-          src="assets/icons/bookmark_black_36dp.svg"
-        />
-        <h2 class="question">Wofür steht die Abkürzung HTML?</h2>
-        <button class="answer" type="button">Show Answer</button>
-        <ul class="tag-list">
-          <li class="category-tag">#css</li>
-          <li class="category-tag second-tag highlight">#html</li>
-          <li class="category-tag">#flexbox</li>
-        </ul>
-      </section>
-      <section class="question-card">
-        <img
-          class="bookmark-icon"
-          alt="bookmark icon"
-          src="assets/icons/bookmark_black_36dp.svg"
-        />
-        <h2 class="question">Welches Zeichen setzt den Universal Selector?</h2>
-        <button class="answer" type="button">Show Answer</button>
-        <ul class="tag-list">
-          <li class="category-tag highlight">#css</li>
-          <li class="category-tag second-tag">#html</li>
-          <li class="category-tag">#flexbox</li>
-        </ul>
-      </section>
-      <section class="question-card">
-        <img
-          class="bookmark-icon"
-          alt="bookmark icon"
-          src="assets/icons/bookmark_black_36dp.svg"
-        />
-        <h2 class="question">
-          Was ist der default Value von der flex-direction?
-        </h2>
-        <button class="answer" type="button">Show Answer</button>
-        <ul class="tag-list">
-          <li class="category-tag">#css</li>
-          <li class="category-tag second-tag">#html</li>
-          <li class="category-tag highlight">#flexbox</li>
-        </ul>
-      </section>
+      <article>
+        <section class="question-card">
+          <img
+            class="bookmark-icon"
+            alt="bookmark icon"
+            src="assets/icons/bookmark_black_36dp.svg"
+          />
+          <p class="question">
+            Mit welchem Property kann ein Selektor eine Hintergrundfarbe
+            bekommen?
+          </p>
+          <p hidden class="hidden-answer">background-color:</p>
+          <button class="answer-button" type="button">Show Answer</button>
+          <ul class="tag-list">
+            <li class="category-tag highlight">#css</li>
+            <li class="category-tag second-tag">#html</li>
+            <li class="category-tag">#flexbox</li>
+          </ul>
+        </section>
+        <section class="question-card">
+          <img
+            class="bookmark-icon"
+            alt="bookmark icon"
+            src="assets/icons/bookmark_black_36dp.svg"
+          />
+          <p class="question">Wofür steht die Abkürzung HTML?</p>
+          <p hidden class="hidden-answer">Hypertext Markup Language</p>
+          <button class="answer-button" type="button">Show Answer</button>
+          <ul class="tag-list">
+            <li class="category-tag">#css</li>
+            <li class="category-tag second-tag highlight">#html</li>
+            <li class="category-tag">#flexbox</li>
+          </ul>
+        </section>
+        <section class="question-card">
+          <img
+            class="bookmark-icon"
+            alt="bookmark icon"
+            src="assets/icons/bookmark_black_36dp.svg"
+          />
+          <p class="question">Welches Zeichen setzt den Universal Selector?</p>
+          <p hidden class="hidden-answer">*</p>
+          <button class="answer-button" type="button">Show Answer</button>
+          <ul class="tag-list">
+            <li class="category-tag highlight">#css</li>
+            <li class="category-tag second-tag">#html</li>
+            <li class="category-tag">#flexbox</li>
+          </ul>
+        </section>
+        <section class="question-card">
+          <img
+            class="bookmark-icon"
+            alt="bookmark icon"
+            src="assets/icons/bookmark_black_36dp.svg"
+          />
+          <p class="question">
+            Was ist der default Value von der flex-direction?
+          </p>
+          <p hidden class="hidden-answer">row</p>
+          <button class="answer-button" type="button">Show Answer</button>
+          <ul class="tag-list">
+            <li class="category-tag">#css</li>
+            <li class="category-tag second-tag">#html</li>
+            <li class="category-tag highlight">#flexbox</li>
+          </ul>
+        </section>
+      </article>
     </main>
 
     <footer>
@@ -106,4 +113,5 @@
       </nav>
     </footer>
   </body>
+  <script src="./js/index.js"></script>
 </html>
