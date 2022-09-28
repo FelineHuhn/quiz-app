@@ -10,100 +10,104 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Quiz App</title>
+    <title>webDevQuiz</title>
     <link rel="stylesheet" href="../css/styles.css" />
   </head>
   <body>
     <header>
-      <nav class="header-navbar"><h1>Quiz App</h1></nav>
+      <h1>webDevQuiz</h1>
     </header>
     <main>
       <article>
-        <section class="question-card">
+        <section class="question__container">
           <img
-            class="bookmark-icon"
+            hidden
+            class="bookmark__icon"
             alt="bookmark icon"
             src="assets/icons/bookmark_black_36dp.svg"
           />
-          <p class="question">
-            Mit welchem Property kann ein Selektor eine Hintergrundfarbe
-            bekommen?
+          <p class="question__block">
+            Was ist der default Value von der Flex-Direction?
           </p>
-          <p class="hidden-answer">background-color:</p>
-          <button class="answer-button" type="button">Show Answer</button>
-          <ul class="tag-list">
-            <li class="category-tag highlight">#css</li>
-            <li class="category-tag second-tag">#html</li>
-            <li class="category-tag">#flexbox</li>
+          <p <!--hidden class="hidden__answer">row</p>
+          <button class="answer__button" type="button">Show Answer</button>
+          <ul class="category__tag--list">
+            <li class="category__tag tag__highlight">#css</li>
+            <li class="category__tag second__tag">#html</li>
+            <li class="category__tag">#javascript</li>
           </ul>
         </section>
-        <section class="question-card">
+        <section class="question__container">
           <img
-            class="bookmark-icon"
+            hidden
+            class="bookmark__icon"
             alt="bookmark icon"
             src="assets/icons/bookmark_black_36dp.svg"
           />
-          <p class="question">Wofür steht die Abkürzung HTML?</p>
-          <p hidden class="hidden-answer">Hypertext Markup Language</p>
-          <button class="answer-button" type="button">Show Answer</button>
-          <ul class="tag-list">
-            <li class="category-tag">#css</li>
-            <li class="category-tag second-tag highlight">#html</li>
-            <li class="category-tag">#flexbox</li>
+          <p class="question__block">Wofür steht die Abkürzung HTML?</p>
+          <p <!--hidden class="hidden__answer">Hypertext Markup Language</p>
+          <button class="answer__button" type="button">Show Answer</button>
+          <ul class="category__tag--list">
+            <li class="category__tag">#css</li>
+            <li class="category__tag second__tag tag__highlight">#html</li>
+            <li class="category__tag">#javascript</li>
           </ul>
         </section>
-        <section class="question-card">
+        <section class="question__container">
           <img
-            class="bookmark-icon"
+            hidden
+            class="bookmark__icon"
             alt="bookmark icon"
             src="assets/icons/bookmark_black_36dp.svg"
           />
-          <p class="question">Welches Zeichen setzt den Universal Selector?</p>
-          <p hidden class="hidden-answer">*</p>
-          <button class="answer-button" type="button">Show Answer</button>
-          <ul class="tag-list">
-            <li class="category-tag highlight">#css</li>
-            <li class="category-tag second-tag">#html</li>
-            <li class="category-tag">#flexbox</li>
+          <p class="question__block">Wofür steht die Abkürzung CSS?</p>
+          <p <!--hidden class="hidden__answer">Cascading Style Sheets</p>
+          <button class="answer__button" type="button">Show Answer</button>
+          <ul class="category__tag--list">
+            <li class="category__tag tag__highlight">#css</li>
+            <li class="category__tag second__tag">#html</li>
+            <li class="category__tag">#javascript</li>
           </ul>
         </section>
-        <section class="question-card">
+        <section class="question__container">
           <img
-            class="bookmark-icon"
+            hidden
+            class="bookmark__icon"
             alt="bookmark icon"
             src="assets/icons/bookmark_black_36dp.svg"
           />
-          <p class="question">
-            Was ist der default Value von der flex-direction?
+          <p class="question__block">
+            Wie lauten die drei Keywords, mit denen eine Variable deklariert
+            wird?
           </p>
-          <p hidden class="hidden-answer">row</p>
-          <button class="answer-button" type="button">Show Answer</button>
-          <ul class="tag-list">
-            <li class="category-tag">#css</li>
-            <li class="category-tag second-tag">#html</li>
-            <li class="category-tag highlight">#flexbox</li>
+          <p <!--hidden class="hidden__answer">const, let, var</p>
+          <button class="answer__button" type="button">Show Answer</button>
+          <ul class="category__tag--list">
+            <li class="category__tag">#css</li>
+            <li class="category__tag second__tag">#html</li>
+            <li class="category__tag tag__highlight">#javascript</li>
           </ul>
         </section>
       </article>
     </main>
 
     <footer>
-      <nav class="footer-navbar">
-        <a href="#" alt="home icon">
+      <nav class="footer__navbar">
+        <a href="/index.html" alt="home icon">
           <img
             class="icon"
-            src="assets/icons/home_outline_36dp.svg"
+            src="assets/icons/home_black_36dp.svg"
             alt="home icon"
           />
         </a>
-        <a href="#" alt="bookmark icon">
+        <a href="/pages/bookmark.html" alt="bookmark icon">
           <img
             class="icon"
             src="assets/icons/bookmark_outline_36dp.svg"
             alt="bookmark icon"
           />
         </a>
-        <a href="#" alt="account icon">
+        <a href="/pages/profile.html" alt="account icon">
           <img
             class="icon"
             src="assets/icons/account_circle_outline_36dp.svg"
@@ -113,5 +117,4 @@
       </nav>
     </footer>
   </body>
-  <script src="./js/index.js"></script>
 </html>

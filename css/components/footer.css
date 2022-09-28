@@ -1,21 +1,20 @@
-.footer-navbar {
+.footer__navbar {
   bottom: 0;
   left: 0;
   right: 0;
   position: fixed;
   justify-content: space-around;
   display: flex;
-  align-items: center;
   background-color: var(--secondary-color);
-  border-top: 1px solid black;
-  padding: 10px;
+  box-shadow: var(--shadow);
+  border: var(--border);
+  padding: 5px;
 }
 
 .icon {
-  width: 40px;
+  width: 38px;
 }
 
 .icon:hover {
-  background-color: grey;
-  color: black;
+  background-color: var(--primary-color);
 }
