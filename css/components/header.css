@@ -1,0 +1,13 @@
+header {
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  justify-content: space-around;
+  display: flex;
+  background-color: var(--secondary-color);
+  box-shadow: var(--shadow);
+  border: var(--border);
+  padding: 5px;
+  z-index: 10;
+}

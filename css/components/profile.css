@@ -1,0 +1,77 @@
+.profile__container {
+  display: flex;
+  flex-direction: row;
+  margin: 100px 45px 70px 45px;
+  padding: 10px;
+  min-width: 200px;
+  max-width: 600px;
+}
+
+.profile__image {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  border: var(--border);
+  box-shadow: var(--shadow);
+}
+
+.profile__name {
+  font-size: 30px;
+  padding: 50px;
+  height: 150px;
+  color: white;
+  text-decoration: overline;
+}
+
+.aboutme__container {
+  display: flex;
+  flex-direction: column;
+  margin: -25px 45px 70px 45px;
+  padding: 10px;
+  background-color: white;
+  box-shadow: var(--shadow);
+  border-radius: 10px;
+  min-width: 200px;
+  max-width: 600px;
+}
+
+.aboutme__title {
+  padding: 20px 0px 0px 20px;
+}
+
+.aboutme__text {
+  padding: 20px;
+  text-align: justify;
+}
+
+.counter__container {
+  display: flex;
+  margin: -25px 45px 70px 45px;
+  padding: 20px;
+  background-color: var(--shadow);
+  box-shadow: var(--shadow);
+  border-radius: 10px;
+  min-width: 200px;
+  max-width: 600px;
+}
+
+.settings__container {
+  display: flex;
+  flex-direction: column;
+  margin: -25px 45px 70px 45px;
+  padding: 20px;
+  height: 150px;
+  background-color: white;
+  box-shadow: var(--shadow);
+  border-radius: 10px;
+  min-width: 200px;
+  max-width: 600px;
+}
+
+.settings {
+  padding: 10px 0px 0px 10px;
+}
+
+.darkmode__switch {
+  padding: 10px;
+}
