@@ -1,29 +1,28 @@
-.profile__container {
+.profile {
   display: flex;
   flex-direction: row;
   margin: 100px 45px 70px 45px;
-  padding: 10px;
-  min-width: 200px;
+  min-width: 100px;
   max-width: 600px;
 }
 
 .profile__image {
-  width: 200px;
-  height: 200px;
+  width: auto;
+  height: 150px;
   border-radius: 100%;
   border: var(--border);
   box-shadow: var(--shadow);
 }
 
 .profile__name {
-  font-size: 30px;
-  padding: 50px;
+  font-size: 20px;
+  padding: 30px;
   height: 150px;
   color: white;
   text-decoration: overline;
 }
 
-.aboutme__container {
+.aboutme {
   display: flex;
   flex-direction: column;
   margin: -25px 45px 70px 45px;
@@ -36,15 +35,15 @@
 }
 
 .aboutme__title {
-  padding: 20px 0px 0px 20px;
+  padding: 10px 0px 0px 10px;
 }
 
 .aboutme__text {
-  padding: 20px;
+  padding: 10px;
   text-align: justify;
 }
 
-.counter__container {
+.counter {
   display: flex;
   margin: -25px 45px 70px 45px;
   padding: 20px;
@@ -55,7 +54,7 @@
   max-width: 600px;
 }
 
-.settings__container {
+.settings {
   display: flex;
   flex-direction: column;
   margin: -25px 45px 70px 45px;
@@ -68,10 +67,10 @@
   max-width: 600px;
 }
 
-.settings {
+.settings__headline {
   padding: 10px 0px 0px 10px;
 }
 
-.darkmode__switch {
+.settings__switch {
   padding: 10px;
 }

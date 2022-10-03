@@ -1,7 +1,7 @@
-.question__container {
+.card {
   display: flex;
   position: relative;
-  height: 500px;
+  height: 480px;
   flex-direction: column;
   margin: 100px 45px 70px 45px;
   padding: 10px;
@@ -12,31 +12,31 @@
   max-width: 600px;
 }
 
-.question__block {
+.card__text {
   font-size: 20px;
   padding: 30px;
   height: 150px;
 }
 
-.hidden__answer {
+.card__text--hidden {
   padding: 5px;
   background-color: var(--third-color);
   margin: auto;
   box-shadow: var(--shadow);
 }
 
-.answer__button {
+.card__button {
   margin: auto;
   padding: 10px;
   background-color: var(--secondary-color);
   border-radius: 10px;
 }
 
-.answer__button:hover {
+.card__button:hover {
   background-color: var(--primary-color);
   color: white;
 }
-.category__tag--list {
+.category {
   display: flex;
   list-style: none;
 }
@@ -48,12 +48,12 @@
   background-color: var(--third-color);
 }
 
-.second__tag {
+.category__tag--second {
   margin-left: 10px;
   margin-right: 10px;
 }
 
-.tag__highlight {
+.category__tag--highlight {
   background-color: var(--primary-color);
   color: white;
 }

@@ -18,95 +18,96 @@
       <h1>webDevQuiz</h1>
     </header>
     <main>
-      <article>
-        <section class="question__container">
-          <img
-            class="bookmark__icon"
-            alt="bookmark icon"
-            src="/assets/icons/bookmark_black_36dp.svg"
-          />
-          <p class="question__block">
-            Was ist der default Value von der Flex-Direction?
-          </p>
-          <p <!--hidden class="hidden__answer">row</p>
-          <button class="answer__button" type="button">Show Answer</button>
-          <ul class="category__tag--list">
-            <li class="category__tag tag__highlight">#css</li>
-            <li class="category__tag second__tag">#html</li>
-            <li class="category__tag">#javascript</li>
-          </ul>
-        </section>
-        <section class="question__container">
-          <img
-            class="bookmark__icon"
-            alt="bookmark icon"
-            src="/assets/icons/bookmark_black_36dp.svg"
-          />
-          <p class="question__block">Wofür steht die Abkürzung HTML?</p>
-          <p <!--hidden class="hidden__answer">Hypertext Markup Language</p>
-          <button class="answer__button" type="button">Show Answer</button>
-          <ul class="category__tag--list">
-            <li class="category__tag">#css</li>
-            <li class="category__tag second__tag tag__highlight">#html</li>
-            <li class="category__tag">#javascript</li>
-          </ul>
-        </section>
-        <section class="question__container">
-          <img
-            class="bookmark__icon"
-            alt="bookmark icon"
-            src="/assets/icons/bookmark_black_36dp.svg"
-          />
-          <p class="question__block">Wofür steht die Abkürzung CSS?</p>
-          <p <!--hidden class="hidden__answer">Cascading Style Sheets</p>
-          <button class="answer__button" type="button">Show Answer</button>
-          <ul class="category__tag--list">
-            <li class="category__tag tag__highlight">#css</li>
-            <li class="category__tag second__tag">#html</li>
-            <li class="category__tag">#javascript</li>
-          </ul>
-        </section>
-        <section class="question__container">
-          <img
-            class="bookmark__icon"
-            alt="bookmark icon"
-            src="/assets/icons/bookmark_black_36dp.svg"
-          />
-          <p class="question__block">
-            Wie lauten die drei Keywords, mit denen eine Variable deklariert
-            wird?
-          </p>
-          <p <!--hidden class="hidden__answer">const, let, var</p>
-          <button class="answer__button" type="button">Show Answer</button>
-          <ul class="category__tag--list">
-            <li class="category__tag">#css</li>
-            <li class="category__tag second__tag">#html</li>
-            <li class="category__tag tag__highlight">#javascript</li>
-          </ul>
-        </section>
-      </article>
+      <section class="card">
+        <img
+          class="card__bookmark"
+          alt="bookmark icon"
+          src="/assets/icons/bookmark_black_36dp.svg"
+        />
+        <p class="card__text">
+          Was ist der default Value von der Flex-Direction?
+        </p>
+        <p hidden class="card__text--hidden">row</p>
+        <button class="card__button" type="button">Show Answer</button>
+        <ul class="category">
+          <li class="category__tag category__tag--highlight">#css</li>
+          <li class="category__tag category__tag--second">#html</li>
+          <li class="category__tag">#javascript</li>
+        </ul>
+      </section>
+      <section class="card">
+        <img
+          class="card__bookmark"
+          alt="bookmark icon"
+          src="/assets/icons/bookmark_black_36dp.svg"
+        />
+        <p class="card__text">Wofür steht die Abkürzung HTML?</p>
+        <p hidden class="card__text--hidden">Hypertext Markup Language</p>
+        <button class="card__button" type="button">Show Answer</button>
+        <ul class="category">
+          <li class="category__tag">#css</li>
+          <li
+            class="category__tag category__tag--second category__tag--highlight"
+          >
+            #html
+          </li>
+          <li class="category__tag">#javascript</li>
+        </ul>
+      </section>
+      <section class="card">
+        <img
+          class="card__bookmark"
+          alt="bookmark icon"
+          src="/assets/icons/bookmark_black_36dp.svg"
+        />
+        <p class="card__text">Wofür steht die Abkürzung CSS?</p>
+        <p hidden class="card__text--hidden">Cascading Style Sheets</p>
+        <button class="card__button" type="button">Show Answer</button>
+        <ul class="category">
+          <li class="category__tag category__tag--highlight">#css</li>
+          <li class="category__tag category__tag--second">#html</li>
+          <li class="category__tag">#javascript</li>
+        </ul>
+      </section>
+      <section class="card">
+        <img
+          class="card__bookmark"
+          alt="bookmark icon"
+          src="/assets/icons/bookmark_black_36dp.svg"
+        />
+        <p class="card__text">
+          Wie lauten die drei Keywords, mit denen eine Variable deklariert wird?
+        </p>
+        <p hidden class="card__text--hidden">const, let, var</p>
+        <button class="card__button" type="button">Show Answer</button>
+        <ul class="category">
+          <li class="category__tag">#css</li>
+          <li class="category__tag category__tag--second">#html</li>
+          <li class="category__tag category__tag--highlight">#javascript</li>
+        </ul>
+      </section>
     </main>
 
     <footer>
-      <nav class="footer__navbar">
+      <nav class="navbar">
         <a href="/index.html" alt="home icon">
           <img
-            class="icon"
+            class="navbar__image"
             src="/assets/icons/home_outline_36dp.svg"
             alt="home icon"
           />
         </a>
         <a href="/pages/bookmark.html" alt="bookmark icon">
           <img
-            class="icon"
+            class="navbar__image"
             src="/assets/icons/bookmark_black_36dp.svg"
             alt="bookmark icon"
           />
         </a>
         <a href="/pages/profile.html" alt="account icon">
           <img
-            class="icon"
-            src="/assets/icons/account_circle_outline_36dp.svg"
+            class="navbar__image"
+            src="/assets/icons/account-circle-line-1.svg"
             alt="account icon"
           />
         </a>
